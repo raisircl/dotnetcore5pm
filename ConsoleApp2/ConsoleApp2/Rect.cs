@@ -38,6 +38,10 @@ namespace ConsoleApp2
         {
             return len * bre;
         }
+        public override string ToString()
+        {
+            return ($"Rect Dimension is {Length}x{Breadth}");
+        }
 
     }
 }
