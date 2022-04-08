@@ -9,7 +9,7 @@
 //    class ProgramDelegate
 //    {
 //        public delegate void Print(int value);
-//       static void Main()
+//        static void Main()
 //        {
 //            //Print print;
 //            //print = PrintNumber;

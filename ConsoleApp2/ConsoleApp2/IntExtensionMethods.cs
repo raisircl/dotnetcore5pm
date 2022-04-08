@@ -12,5 +12,9 @@ namespace ConsoleApp2
         {
             return x > value;
         }
+        public static bool IsPositive(this int x)
+        {
+            return x > 0;
+        }
     }
 }
