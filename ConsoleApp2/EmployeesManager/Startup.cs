@@ -27,6 +27,8 @@ namespace EmployeesManager
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddMvc(options=>options.EnableEndpointRouting=false);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -40,13 +42,13 @@ namespace EmployeesManager
                 { SourceCodeLineCount = 10};
                 app.UseDeveloperExceptionPage(exceptionPageOptions);
             }
-            DefaultFilesOptions options = new DefaultFilesOptions();
-            options.DefaultFileNames.Clear();
-            options.DefaultFileNames.Add("foo.html");
-            app.UseDefaultFiles(options);
+            //DefaultFilesOptions options = new DefaultFilesOptions();
+            //options.DefaultFileNames.Clear();
+            //options.DefaultFileNames.Add("foo.html");
+            //app.UseDefaultFiles(options);
 
             app.UseStaticFiles();
-
+            app.UseMvcWithDefaultRoute();
             //app.Use(async (context, next) =>
             //{
             //    logger.LogInformation("MW1: Incoming Request");

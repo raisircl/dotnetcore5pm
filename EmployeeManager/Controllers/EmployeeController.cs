@@ -8,14 +8,20 @@ namespace EmployeeManager.Controllers
 {
     public class EmployeeController : Controller
     {
+        private readonly IEmployeeRepository employeeRepository;
+
+        public EmployeeController(IEmployeeRepository employeeRepository)
+        {
+            this.employeeRepository = employeeRepository;
+        }
         public IActionResult Index()
         {
-            return View();
+            List<Employee> employees = employeeRepository.GetEmployees();
+            return View(employees);
         }
         public IActionResult Details(int id)
         {
-            Employee e1 = new Employee() { Id = 1001, Name = "Manjeet", Department = ".Net" };
-
+            Employee e1 = employeeRepository.GetEmployee(id);
             return View(e1);
         }
 

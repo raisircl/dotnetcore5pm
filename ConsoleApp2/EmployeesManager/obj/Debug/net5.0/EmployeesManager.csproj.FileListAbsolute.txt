@@ -20,3 +20,14 @@ C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\o
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.pdb
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.genruntimeconfig.cache
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\bin\Debug\net5.0\ref\EmployeesManager.dll
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\bin\Debug\net5.0\EmployeesManager.Views.dll
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\bin\Debug\net5.0\EmployeesManager.Views.pdb
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.RazorAssemblyInfo.cache
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.RazorAssemblyInfo.cs
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.TagHelpers.input.cache
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.TagHelpers.output.cache
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.RazorCoreGenerate.cache
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.RazorTargetAssemblyInfo.cs
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.Views.pdb
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.csproj.CopyComplete
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs

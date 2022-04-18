@@ -402,3 +402,4 @@ C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\EmployeeManager\bin\Debug\net5
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\EmployeeManager\bin\Debug\net5.0\runtimes\win-arm\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\EmployeeManager\bin\Debug\net5.0\runtimes\win-arm64\lib\net5.0\dotnet-aspnet-codegenerator-design.exe
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\EmployeeManager\obj\Debug\net5.0\Razor\Views\Employee\Details.cshtml.g.cs
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\EmployeeManager\obj\Debug\net5.0\Razor\Views\Employee\Index.cshtml.g.cs

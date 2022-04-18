@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp2", "ConsoleApp2\ConsoleApp2.csproj", "{AE47B7D7-8C4D-4927-9D3D-8BBE42B92C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeManager", "..\EmployeeManager\EmployeeManager.csproj", "{02722E3D-351E-4BFA-9BA6-CAEDA4973867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeManager", "..\EmployeeManager\EmployeeManager.csproj", "{02722E3D-351E-4BFA-9BA6-CAEDA4973867}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesManager", "EmployeesManager\EmployeesManager.csproj", "{7EAA5D7F-5872-4F21-976E-FE45C1E5D5D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeesManager", "EmployeesManager\EmployeesManager.csproj", "{7EAA5D7F-5872-4F21-976E-FE45C1E5D5D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRestAPIProject", "MyRestAPIProject\MyRestAPIProject.csproj", "{FDE4EE20-FA87-4244-9435-680F952661AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyRestAPIProject", "MyRestAPIProject\MyRestAPIProject.csproj", "{FDE4EE20-FA87-4244-9435-680F952661AC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
