@@ -1,6 +1,6 @@
-﻿@model List<Employee>
+﻿@model EmployeeViewModel
 @{
-    ViewData["Title"] = "All Employees";
+    ViewData["Title"] = Model.PageTitle;
 }
 
 
@@ -16,7 +16,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (var emp in Model)
+        @foreach (var emp in Model.Employees)
         {
             <tr>
                 <td>@emp.Id</td>
@@ -27,3 +27,7 @@
         }
     </tbody>
 </table>
+@section Scripts
+{
+    <script src="~/js/MyCustomJavaScript.js"></script>
+}

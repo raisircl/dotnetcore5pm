@@ -1,0 +1,42 @@
+﻿
+<!DOCTYPE html>
+@{ 
+    var title = ViewData["Title"];
+    var employees = ViewData["employees"] as List<EmployeeManager.Models.Employee>;
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>@title</title>
+</head>
+<body>
+
+    <h1>Welcome manjeet.</h1>
+
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>EmpId</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in employees)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Email</td>
+                    <td>@emp.Department</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</body>
+</html>

@@ -18,9 +18,16 @@ namespace EmployeeManager.Controllers
             _logger = logger;
         }
 
+        public ViewResult Mannu()
+        {
+            return View("MyViews/manjeet.cshtml");
+        }
+
         public IActionResult Index()
         {
-            return View();
+            ViewData["title"] = "Employee Detail";
+
+            return View("Employee",new Employee() { Name = "Ram", Email = "ram@ram.com", Id = 1001, Department = "HR" });
         }
 
         public IActionResult Privacy()
