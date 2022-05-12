@@ -27,7 +27,7 @@ namespace EmployeeManager.Controllers
         {
             ViewData["title"] = "Employee Detail";
 
-            return View("Employee",new Employee() { Name = "Ram", Email = "ram@ram.com", Id = 1001, Department = "HR" });
+            return View("Employee",new Employee() { Name = "Ram", Email = "ram@ram.com", Id = 1001, Department = Department.HW });
         }
 
         public IActionResult Privacy()

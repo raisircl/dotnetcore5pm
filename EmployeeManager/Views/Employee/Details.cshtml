@@ -1,21 +1,39 @@
-﻿@model Employee
+﻿@model EmployeeViewModel
 @{
-    ViewData["Title"] = "Details";
+    //Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = Model.PageTitle;
 }
 
-<h1>Details</h1>
-<table>
-    <tr>
-        <th>Id</th>
-        <td>@Model.Id</td>
-    </tr>
-    <tr>
-        <th>Name</th>
-        <td>@Model.Name</td>
-    </tr>
-    <tr>
-        <th>Department</th>
-        <td>@Model.Department</td>
-    </tr>
+<h3>@Model.PageTitle</h3>
+<div class="row justify-content-center m-3">
 
-</table>
+    <div class="col-sm-8">
+        @foreach (var employee in Model.Employees)
+        {
+            <div class="card">
+
+                <div class="card-header">
+                    <h1>@employee.Name</h1>
+                </div>
+
+                <div class="card-body text-center">
+                    <img class="img-fluid" src="~/images/sircl.png" />
+
+                    <h4>Employee ID : @employee.Id</h4>
+                    <h4>Email : @employee.Email</h4>
+                    <h4>Department : @employee.Department</h4>
+
+                </div>
+
+                <div class="card-footer text-center">
+                    <a href="#" class="btn btn-primary">Back</a>
+                    <a href="#" class="btn btn-primary">Edit</a>
+                    <a href="#" class="btn btn-danger">Delete</a>
+                </div>
+            </div>
+        }
+        </div>
+</div>
+@section Scripts{
+    <script src="~/js/CustomScript.js"></script>
+}

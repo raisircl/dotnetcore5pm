@@ -1,32 +1,56 @@
 ﻿@model EmployeeViewModel
 @{
     ViewData["Title"] = Model.PageTitle;
+    var title = Model.PageTitle;
 }
 
 
-<table class="table table-striped">
-    <thead>
-        <tr>
-            <th>EmpId</th>
-            <th>Name</th>
-            <th>Email</th>
-            <th>Department</th>
+
+<h1>@title</h1>
+<div class="card-deck">
+    @foreach (var employee in Model.Employees)
+    {
+        <div class="card m-3">
+            <div class="card-header">
+                <h3>@employee.Name</h3>
+            </div>
+            <img class="card-img-top" src="~/images/sircl.png" />
+            <div class="card-footer text-center">
+                <a href="employee/details/@employee.Id" class="btn btn-primary">View</a>
+                @*@Html.ActionLink("See Detail", "details", "employee", new{id=employee.Id})*@
+                <a asp-controller="employee" asp-action="details" asp-route-id="@employee.Id" class="btn btn-primary m-1">View</a>
+
+                <a href="#" class="btn btn-primary m-1">Edit</a>
+                <a href="#" class="btn btn-danger m-1">Delete</a>
+            </div>
+        </div>
+           }
+</div>
 
 
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var emp in Model.Employees)
-        {
+@*<table class="table table-striped">
+        <thead>
             <tr>
-                <td>@emp.Id</td>
-                <td>@emp.Name</td>
-                <td>@emp.Email</td>
-                <td>@emp.Department</td>
+                <th>EmpId</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Department</th>
+
+
             </tr>
-        }
-    </tbody>
-</table>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model.Employees)
+            {
+                <tr>
+                    <td>@emp.Id</td>
+                    <td>@emp.Name</td>
+                    <td>@emp.Email</td>
+                    <td>@emp.Department</td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
 @section Scripts
 {
     <script src="~/js/MyCustomJavaScript.js"></script>

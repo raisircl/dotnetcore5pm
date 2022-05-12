@@ -8,8 +8,10 @@ namespace EmployeeManager.Models
     public interface IEmployeeRepository
     {
         Employee GetEmployee(int id);
-        void SaveEmployee(Employee employee);
+        Employee SaveEmployee(Employee employee);
         List<Employee> GetEmployees();
+        Employee Update(Employee employeeChanges);
+        Employee Delete(int Id);
 
     }
 }

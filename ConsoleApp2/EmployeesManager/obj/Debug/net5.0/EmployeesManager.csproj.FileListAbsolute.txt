@@ -31,3 +31,4 @@ C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\o
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.Views.pdb
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\EmployeesManager.csproj.CopyComplete
 C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Acer\source\repos\raisircl\dotnetcore5pm\ConsoleApp2\EmployeesManager\bin\Debug\net5.0\libman.json
